@@ -21,6 +21,7 @@ function scrollFunction() {
 function cycleImages() {
   var $active = $('#cycler .active');
   var $next = ($active.next().length > 0) ? $active.next() : $('#cycler div:first');
+  console.log($next);
   $next.css('z-index', 2);//move the next image up the pile
   $active.fadeOut(1500, function () {//fade out the top image
     $active.css('z-index', 1).show().removeClass('active');//reset the z-index and unhide the image

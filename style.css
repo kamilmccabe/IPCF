@@ -18,6 +18,10 @@ a {
     color: black;
 }
 
+.polish {
+    display: none;
+}
+
 .wrapper {
     height: 100vh;
     display: flex;
@@ -44,6 +48,7 @@ a {
     margin: 40px;
     bottom: 0;
     font-size: 1.25rem;
+    color: #ffffff;
 }
 
 .highlight {
@@ -81,7 +86,6 @@ a {
     background-size: cover;
     background-position: center;
     filter: grayscale(1);
-    color: #ffffff;
 }
 
 #img2 {
@@ -100,6 +104,53 @@ a {
 
 #img4 {
     background: url(img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img4 > p {
+    transform-origin: left;
+    padding-top: 20px;
+    transform: rotate(270deg);
+}
+#img5 {
+    background: url(img/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img6 {
+    background: url(img/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img7 {
+    background: url(img/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img8 {
+    background: url(img/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img9 {
+    background: url(img/img9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img10 {
+    background: url(img/img10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#img11 {
+    background: url(img/img11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

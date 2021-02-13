@@ -48,7 +48,7 @@ a {
     position: absolute;
     margin: 40px;
     bottom: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #ffffff;
 }
 
@@ -110,11 +110,11 @@ a {
     background-size: cover;
     background-position: center;
 }
-#img4 > p {
+/* #img4 > p {
     transform-origin: left;
     padding-top: 20px;
     transform: rotate(270deg);
-}
+} */
 #img5 {
     background: url(img/img5.jpg);
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@ h2, h3 {
     margin-top: 3rem;
 }
 
-#about, #podKast {
+#about, #events, #podKast, #services {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -210,24 +210,6 @@ h2, h3 {
 #back-to-top:hover {
     cursor: pointer;
 }
-
-@keyframes imgFade {
-    0% {
-    background-image: url(https://picsum.photos/1200/800?image=1074);
-    }
-    25% {
-    background-image: url(https://picsum.photos/1200/800?image=1070);
-    }
-    50% {
-    background-image: url(https://picsum.photos/1200/800?image=1071);
-    }
-    75% {
-    background-image: url(https://picsum.photos/1200/800?image=1072);
-    }
-    100% {
-    background-image: url(https://picsum.photos/1200/800?image=1074);
-    }
-    }
 
 @media (max-width: 600px) {
     .images {

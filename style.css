@@ -177,6 +177,14 @@ a {
     justify-content: space-between;
 }
 
+h2, h3 {
+    color:#a00f0fa6;
+}
+
+#events a {
+    text-decoration: underline;
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -184,9 +192,10 @@ a {
     margin-top: 3rem;
 }
 
-#about {
+#about, #podKast {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #back-to-top {

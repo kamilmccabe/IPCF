@@ -211,6 +211,25 @@ h2, h3 {
     cursor: pointer;
 }
 
+.podKast-section {
+    display: flex;
+    align-items: center;
+}
+
+.podKast-section > img {
+    width: 50%;
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.podKast-text {
+    font-size: 0.85rem;
+}
+
+.podKast-text > h3{
+    color: #000;
+}
+
 @media (max-width: 600px) {
     .images {
         display: none;

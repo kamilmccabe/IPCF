@@ -181,7 +181,7 @@ h2, h3 {
     color:#a00f0fa6;
 }
 
-#events a {
+#events a, #news a {
     text-decoration: underline;
 }
 
